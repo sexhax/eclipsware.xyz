@@ -42,7 +42,6 @@ body {
     text-align: center;
 }
 
-/* Avatar image styling */
 .avatar {
     width: 120px;
     height: 120px;
@@ -77,7 +76,6 @@ h1 {
     margin-bottom: 0;
 }
 
-/* Track Info */
 .track-info {
     margin-bottom: 20px;
     opacity: 0.9;
@@ -294,7 +292,6 @@ h1 {
     line-height: 1.4;
 }
 
-/* Scrollbar styling for the modal */
 .modal-content::-webkit-scrollbar {
     width: 8px;
 }
