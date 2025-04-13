@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-image">
+            <img src="https://cdn.discordapp.com/avatars/1329066711449735211/6ea137c66412eb1270ec6d764e797e2f.png?size=1024" alt="Profile Picture" class="avatar" id="profile-avatar">
+        </div>
+        
+        <div class="bio-content">
+            <h1>publicindecency</h1>
+            <p class="bio-tag">Fuck them yellow & blacks</p>
+        </div>
+ 
+        <audio id="audio-player"></audio>
+
+        <div class="track-info">
+            <p class="track-title">Laat Me</p>
+            <p class="track-artist">Lusho</p>
+        </div>
+        
+        <div class="player-controls">
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+            <div class="control-buttons">
+                <button class="control-btn prev-btn"><i class="fas fa-step-backward"></i></button>
+                <button class="control-btn play-btn"><i class="fas fa-play"></i></button>
+                <button class="control-btn next-btn"><i class="fas fa-step-forward"></i></button>
+            </div>
+        </div>
+        
+        <div class="links-container">
+            <a href="#" class="social-link"><i class="fab fa-telegram"></i> /telegram</a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i> /github</a>
+            <a href="#" class="social-link"><i class="fab fa-discord"></i> /discord</a>
+        </div>
+    </div>
+
+    <div class="friends-modal" id="friends-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>La homies</h2>
+                <button class="close-btn" id="close-modal">&times;</button>
+            </div>
+            <div class="friends-list">
+                <div class="friend-card">
+                    <img src="https://cdn.discordapp.com/avatars/1350443577796464681/9e7ac2c88b0252ae86cac77b5116f781.png?size=1024" alt="Friend 1" class="friend-avatar">
+                    <div class="friend-info">
+                        <h3>P.J</h3>
+                        <p>Heil hitler nigga</p>
+                    </div>
+                </div>
+                <div class="friend-card">
+                    <img src="https://cdn.discordapp.com/avatars/1350443577796464681/9e7ac2c88b0252ae86cac77b5116f781.png?size=1024" alt="Friend 2" class="friend-avatar">
+                    <div class="friend-info">
+                        <h3>Youssef</h3>
+                        <p>EN NOU!</p>
+                    </div>
+                </div>
+                <div class="friend-card">
+                    <img src="https://cdn.discordapp.com/avatars/1020568599271841842/fe6853d08aaa67e78a70a6732b72715c.png?size=1024" alt="Friend 3" class="friend-avatar">
+                    <div class="friend-info">
+                        <h3>Traxzy</h3>
+                        <p>Imagine nog roblox roleplay spelen.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
